@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d39f04291e3b341f78bf4cfa451accd7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179847
+  packageName: "LEGO\xAE Microgame"
+  packageVersion: 3.0.0
+  assetPath: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Speak.prefab
+  uploadId: 489201

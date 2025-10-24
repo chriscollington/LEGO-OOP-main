@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuizQuestion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <QuizQuestion>
+    <Question>If it's noon in Boston, what time is it in New York</Question>
+    <Answers>
+      <string>1PM</string>
+      <string>2PM</string>
+      <string>Noon</string>
+      <string>11AM</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>What type of animal was Babe in the film of the same name</Question>
+    <Answers>
+      <string>Donkey</string>
+      <string>Spider</string>
+      <string>Dog</string>
+      <string>Pig</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+  </QuizQuestion>
+</ArrayOfQuizQuestion>
