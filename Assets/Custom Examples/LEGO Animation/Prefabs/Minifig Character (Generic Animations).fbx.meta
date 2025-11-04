@@ -3,7 +3,102 @@ guid: 9c7f6d66eb6ca4070bd0108867e6ab5e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm_Main_White
+    second: {fileID: 2100000, guid: d1de078cf58374447a4b2524a62096af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_EarthBlue
+    second: {fileID: 2100000, guid: e29a184154200e84d86bb4e6b568e71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: f5d3a52dd01a22a4b8a0b3424accceb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_Crotch_White
+    second: {fileID: 2100000, guid: 0bd04dad42e3ac143957b55447fec487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_Front_White
+    second: {fileID: 2100000, guid: 44ddeb14f204e2846bf719b4b9a9ff92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_Main_White
+    second: {fileID: 2100000, guid: 40f35c6a81051e1458847e97e3021307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_L_Foot_White
+    second: {fileID: 2100000, guid: 924c445ef753ebe41ba9de26ecc5f05e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_L_Front_White
+    second: {fileID: 2100000, guid: bfb8305b7e03d7b4d918c536834d1bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_L_Main_White
+    second: {fileID: 2100000, guid: 529b636cdaca89c4d8621c2dcabb8274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_L_Side_White
+    second: {fileID: 2100000, guid: d064e77f6fe27cc4289c7b99e9cbf39f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_R_Foot_White
+    second: {fileID: 2100000, guid: 746e16e77d289824aab193255effaa1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_R_Front_White
+    second: {fileID: 2100000, guid: 781139e0ff34d1543982c5062af2cb7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_R_Main_White
+    second: {fileID: 2100000, guid: dd809ac8c9f8b2c4c8ca956cca43da9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg_R_Side_White
+    second: {fileID: 2100000, guid: f7cadf688399f644ebe4f10943e1353e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso_Back_MediumStoneGrey_d643278
+    second: {fileID: 2100000, guid: 27d1f7a01e4edda43be3b692fa7603d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso_Front_MediumStoneGrey_d643276
+    second: {fileID: 2100000, guid: 2643d69eed3dc7449b9308172307dcbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso_Main_MediumStoneGrey
+    second: {fileID: 2100000, guid: df89807ba6f56364392fe2da32e35ceb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _638263
+    second: {fileID: 2100000, guid: 887ab2de23e69304a9b3c0a767c7c14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m85974_ReddishBrown_N
+    second: {fileID: 2100000, guid: b2014d3061cee674e9d4eb2741c84076, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,6 +111,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
