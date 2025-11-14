@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/My game/Fluffys Carrot Farm.unity
     guid: ea241b50ab5ba4dcc9ff6e0d13ddaa34
+  - enabled: 1
+    path: Assets/My game/main game.unity
+    guid: 018b42d407c508041b703a4a8d315288
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ca76dcc7e0aef4b308179401bd5ac214,
       type: 2}
