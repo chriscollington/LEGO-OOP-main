@@ -1239,8 +1239,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'LEGO Peter Pan: The Neverland Adventure'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 888ba07f3ecb44058a8e8c4ac115b08c, type: 2}
-  m_sharedMaterial: {fileID: -2082054820972272263, guid: 888ba07f3ecb44058a8e8c4ac115b08c,
+  m_fontAsset: {fileID: 11400000, guid: df7131cf2463e44098203e43738eba13, type: 2}
+  m_sharedMaterial: {fileID: 3052034963214747149, guid: df7131cf2463e44098203e43738eba13,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 69.05
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1458,21 +1458,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 23689779}
     m_Modifications:
-    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
+    - target: {fileID: 2051566757243283846, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
-      propertyPath: m_Navigation.m_SelectOnDown
-      value: 
-      objectReference: {fileID: 351116851}
-    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 23689783}
-    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
-        type: 3}
-      propertyPath: OnCustomClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 23689783}
+      propertyPath: m_Name
+      value: Play Button
+      objectReference: {fileID: 0}
     - target: {fileID: 2063744388316167437, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1578,11 +1568,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2051566757243283846, guid: 7caa54d5f697243d5be070772d803bab,
+    - target: {fileID: 2574412239106386803, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
-      propertyPath: m_Name
-      value: Play Button
-      objectReference: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62511348d6f514b6bb441488802c84fc,
+        type: 3}
     - target: {fileID: 8851030426209193709, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: sceneName
@@ -1600,6 +1591,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -6656905189396515994, guid: a14e522e426f5472a8c9710aa5b252b7,
         type: 2}
+    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
+        type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 351116851}
+    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 23689783}
+    - target: {fileID: 2004120559925337665, guid: 165839a7120ca4942bb00b88593031de,
+        type: 3}
+      propertyPath: OnCustomClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 23689783}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

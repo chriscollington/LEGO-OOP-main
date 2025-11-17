@@ -493,7 +493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 88b6be54fafc14466988e2ebe7f13eeb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40430c8a0703a4f549591259107881a3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1a5bcd36fbab145288d95e8668ce72cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46f5ee92c82674b7bbde49f5a74ab466, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1671,10 +1671,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[You lost...]'
+  m_text: You lost...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 888ba07f3ecb44058a8e8c4ac115b08c, type: 2}
-  m_sharedMaterial: {fileID: -2082054820972272263, guid: 888ba07f3ecb44058a8e8c4ac115b08c,
+  m_fontAsset: {fileID: 11400000, guid: df7131cf2463e44098203e43738eba13, type: 2}
+  m_sharedMaterial: {fileID: 3052034963214747149, guid: df7131cf2463e44098203e43738eba13,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
