@@ -4201,7 +4201,7 @@ MonoBehaviour:
   faceTag: Face
   face: {fileID: 106469548928473940}
   framesPerSecond: 24
-  defaultTexture: {fileID: 2800000, guid: 579278ff2942b4a889efa0fb6479a349, type: 3}
+  defaultTexture: {fileID: 2800000, guid: ab78d67de763a4e53ad8adbad803d574, type: 3}
   animations: 
   animationData: []
 --- !u!114 &1119893525341689811
