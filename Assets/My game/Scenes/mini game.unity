@@ -112614,7 +112614,7 @@ PrefabInstance:
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6809099
+      value: 2.6808686
       objectReference: {fileID: 0}
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
@@ -112624,7 +112624,7 @@ PrefabInstance:
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.0000486
+      value: -2.9997456
       objectReference: {fileID: 0}
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
@@ -112634,17 +112634,17 @@ PrefabInstance:
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5866477607556943366, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
@@ -112663,8 +112663,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6641691721970922123, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
         type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000041246414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641691721970922123, guid: 79a95c1cb344f4ec18886bbe4bcdae7f,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: -0.00030303
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -150241,7 +150246,7 @@ PrefabInstance:
     - target: {fileID: 2742812528658015894, guid: cc1e3f9715798ea4fab9885b641b3752,
         type: 3}
       propertyPath: m_WinScene
-      value: mini game
+      value: Menu Win
       objectReference: {fileID: 0}
     - target: {fileID: 2742812528658015894, guid: cc1e3f9715798ea4fab9885b641b3752,
         type: 3}
