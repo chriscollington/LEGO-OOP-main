@@ -3279,7 +3279,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 3621554888825754127, guid: 81c090246952449b7afa82f80664fc4d, type: 3}
+  m_Mesh: {fileID: 3621554888825754127, guid: a196670f015bf4833b9f91e8c51fa21a, type: 3}
   m_Bones:
   - {fileID: 5866511442137041946}
   m_BlendShapeWeights: []
@@ -3945,6 +3945,9 @@ GameObject:
   - component: {fileID: 5351112083800988056}
   - component: {fileID: 7040744195815513860}
   - component: {fileID: 3757629800630946208}
+  - component: {fileID: 1531073393297867779}
+  - component: {fileID: 4277496381099393257}
+  - component: {fileID: 5591849833634646567}
   m_Layer: 9
   m_Name: Peter Pan main
   m_TagString: Player
@@ -4199,11 +4202,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faceTag: Face
-  face: {fileID: 106469548928473940}
+  face: {fileID: 4238459047766767825}
   framesPerSecond: 24
   defaultTexture: {fileID: 2800000, guid: ab78d67de763a4e53ad8adbad803d574, type: 3}
-  animations: 
-  animationData: []
+  animations: 00000000
+  animationData:
+  - textures: []
 --- !u!114 &1119893525341689811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4328,6 +4332,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onlyActiveGameObject: 0
   hideChildren: 1
+--- !u!114 &1531073393297867779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032622036293621755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db7cdc4e2ac0354684b666835394fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverHeight: 20
+  riseSpeed: 30
+  autoHover: 1
+  isFlying: 0
+--- !u!65 &4277496381099393257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032622036293621755}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6, y: 3.84, z: 0.8}
+  m_Center: {x: 0, y: 1.92, z: 0}
+--- !u!54 &5591849833634646567
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032622036293621755}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5052641173557340320
 GameObject:
   m_ObjectHideFlags: 0
