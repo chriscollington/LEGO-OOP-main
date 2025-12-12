@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(CharacterController))]
-public class AIWander: MonoBehaviour
+public class AIWander : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float moveSpeed = 2f;
@@ -25,6 +25,9 @@ public class AIWander: MonoBehaviour
     private CharacterController controller;
     private Vector3 targetPosition;
     private Vector3 verticalVelocity;
+
+    // NEW: Freeze AI during punching
+    [HideInInspector] public bool isAttacking = false;
 
     void Start()
     {
@@ -64,7 +67,6 @@ public class AIWander: MonoBehaviour
         {
             attempts++;
 
-            // Pick random walkable object
             GameObject chosenObj = walkableObjects[Random.Range(0, walkableObjects.Count)];
             Collider[] colliders = chosenObj.GetComponentsInChildren<Collider>();
 
@@ -80,7 +82,6 @@ public class AIWander: MonoBehaviour
             float x = Random.Range(b.min.x, b.max.x);
             float z = Random.Range(b.min.z, b.max.z);
 
-            // Raycast down to get correct Y
             RaycastHit hit;
             if (!Physics.Raycast(new Vector3(x, b.max.y + 2, z), Vector3.down, out hit, 200f))
             {
@@ -89,7 +90,6 @@ public class AIWander: MonoBehaviour
 
             Vector3 potentialPos = hit.point;
 
-            // Check if inside any obstacle
             bool hitObstacle = false;
             foreach (GameObject obs in obstacles)
             {
@@ -114,13 +114,20 @@ public class AIWander: MonoBehaviour
             }
         }
 
-        // If no valid point found after 20 tries, stay put
         if (!validPoint)
             targetPosition = transform.position;
     }
 
     void MoveAI()
     {
+        // NEW: STOP MOVEMENT DURING ATTACK
+        if (isAttacking)
+        {
+            if (legoAnimator != null)
+                legoAnimator.SetFloat(speedParameter, 0f);
+            return;
+        }
+
         Vector3 moveDirection = targetPosition - transform.position;
         moveDirection.y = 0f;
         moveDirection = moveDirection.normalized;
@@ -139,7 +146,6 @@ public class AIWander: MonoBehaviour
         Vector3 movement = (moveDirection * moveSpeed) + verticalVelocity;
         controller.Move(movement * Time.deltaTime);
 
-        // Animation
         if (legoAnimator != null)
         {
             float currentSpeed = moveDirection.magnitude * moveSpeed;
@@ -158,9 +164,7 @@ public class AIWander: MonoBehaviour
                 if (obj != null)
                 {
                     foreach (Collider col in obj.GetComponentsInChildren<Collider>())
-                    {
                         Gizmos.DrawWireCube(col.bounds.center, col.bounds.size);
-                    }
                 }
             }
         }
@@ -173,9 +177,7 @@ public class AIWander: MonoBehaviour
                 if (obs != null)
                 {
                     foreach (Collider col in obs.GetComponentsInChildren<Collider>())
-                    {
                         Gizmos.DrawWireCube(col.bounds.center, col.bounds.size);
-                    }
                 }
             }
         }
