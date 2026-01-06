@@ -15,6 +15,7 @@
     "com.unity.lego.materials": "https://github.com/purna/com.unity.lego.materials-3.0.0.git",
     "com.unity.lego.modelimporter": "https://github.com/purna/com.unity.lego.modelimporter-8.0.1.git",
     "com.unity.ml-agents": "2.0.1",
+    "com.unity.recorder": "4.0.3",
     "com.unity.settings-manager": "2.1.0",
     "com.unity.test-framework": "1.3.9",
     "com.unity.timeline": "1.8.6",
